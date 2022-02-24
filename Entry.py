@@ -44,8 +44,8 @@ class Entry:
             return self.title == other.title and \
                    self.date == other.date and \
                    self.mileage == other.mileage and \
-                   self.time == other.time and \
-                   self.diff_rating == other.diff_rating
+                   self.duration == other.duration and \
+                   self.diff_scale == other.diff_scale
 
     def avg_speed(self) -> float:
         """
